@@ -3,6 +3,7 @@ body{
     color: white;
 }
 .table{
+    border-radius: 10px;
     background-color: grey;
 }
 .tabela{
