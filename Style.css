@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+}
+.table{
+    border-radius: 10px;
+    background-color: grey;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.hide{
+    position: relative;
+    top: -706px;
+}
+.zakryj{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#cover:active{
+    opacity: 0;
+    transition: 0s;
+}
+#cover{
+    opacity: 100;
+    transition: 2s;
+}
+img{
+    border-radius: 10px;
+}
+#what{
+    position: absolute;
+    top: 800px;
+    right: 420px;
+    opacity: 0;
+    transition: 1s;
+}
+#what:hover{
+    opacity: 1;
+    transition: 2s;
+}
